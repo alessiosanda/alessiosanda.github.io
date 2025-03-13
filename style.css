@@ -113,7 +113,7 @@ em {
 }
 
 code {
-    background-color: rgba(144,144,144,0.25);
+    background-color: rgba(144, 144, 144, 0.15);
     border-radius: 0.25em;
     font-family: 'Lucida Console', 'Courier New', monospace;
     font-size: 0.9em;
@@ -125,7 +125,7 @@ code {
 }
 
 mark {
-    background-color: rgba(144,144,144,0.25);
+    background-color: rgba(144, 144, 144, 0.15);
 }
 
 s {
@@ -375,9 +375,9 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     -webkit-text-fill-color: currentcolor;
 }
 
-#text03 {
+#text01 {
     text-transform: uppercase;
-    color: #292929;
+    color: #333;
     font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     letter-spacing: 0.4rem;
     width: calc(100% + 0.4rem);
@@ -386,20 +386,20 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     font-weight: 400;
 }
 
-#text03 a {
+#text01 a {
     text-decoration: underline;
 }
 
-#text03 a:hover {
+#text01 a:hover {
     text-decoration: none;
 }
 
-#text03 span.p:nth-child(n + 2) {
+#text01 span.p:nth-child(n + 2) {
     margin-top: 1rem;
 }
 
-#text07 {
-    color: #292929;
+#text02 {
+    color: #333;
     font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     letter-spacing: 0.025rem;
     width: calc(100% + 0.025rem);
@@ -408,15 +408,15 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     font-weight: 400;
 }
 
-#text07 a {
+#text02 a {
     text-decoration: underline;
 }
 
-#text07 a:hover {
+#text02 a:hover {
     text-decoration: none;
 }
 
-#text07 span.p:nth-child(n + 2) {
+#text02 span.p:nth-child(n + 2) {
     margin-top: 1rem;
 }
 
@@ -506,19 +506,19 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #icons01 .n01:hover {
-    border-color: #6FD673 !important;
-}
-
-#icons01 .n01:hover svg {
-    fill: #6FD673 !important;
-}
-
-#icons01 .n02:hover {
     border-color: #EDAD91 !important;
 }
 
-#icons01 .n02:hover svg {
+#icons01 .n01:hover svg {
     fill: #EDAD91 !important;
+}
+
+#icons01 .n04:hover {
+    border-color: #ff2121 !important;
+}
+
+#icons01 .n04:hover svg {
+    fill: #ff2121 !important;
 }
 
 #icons01 .n03:hover {
@@ -529,11 +529,11 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     fill: #DB7DD1 !important;
 }
 
-#icons01 .n04:hover {
+#icons01 .n05:hover {
     border-color: #5962B5 !important;
 }
 
-#icons01 .n04:hover svg {
+#icons01 .n05:hover svg {
     fill: #5962B5 !important;
 }
 
@@ -620,14 +620,14 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
         width: 9rem;
     }
 
-    #text03 {
+    #text01 {
         letter-spacing: 0.35rem;
         width: calc(100% + 0.35rem);
         font-size: 1.5em;
         line-height: 1.25;
     }
 
-    #text07 {
+    #text02 {
         letter-spacing: 0.021875rem;
         width: calc(100% + 0.021875rem);
         font-size: 1em;
@@ -661,11 +661,11 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
         --spacing: 0.84375rem;
     }
 
-    #text03 {
+    #text01 {
         font-size: 1.5em;
     }
 
-    #text07 {
+    #text02 {
         font-size: 1em;
     }
 
